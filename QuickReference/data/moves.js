@@ -605,6 +605,74 @@ const moveData = [
     ]
   },
   {
+    "character": 14,
+    "name": "Drive Impact: Flame Strike",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ed",
+    "inputModern": null,
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 14,
+    "name": "Drive Reversal: Lightning Crack",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bed",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "When blocking or during a successful Drive Parry"
+    ]
+  },
+  {
+    "character": 14,
+    "name": "Drive Parry",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ws",
+    "inputModern": null,
+    "costDrive": -1,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to extend the move\u0027s duration"
+    ]
+  },
+  {
+    "character": 14,
+    "name": "Parry Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 0.5,
+    "costSuper": 0,
+    "notes": [
+      "During a Drive Parry"
+    ]
+  },
+  {
+    "character": 14,
+    "name": "Cancel Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 3,
+    "costSuper": 0,
+    "notes": [
+      "When connecting with a special-cancelable move"
+    ]
+  },
+  {
     "character": 13,
     "name": "Sonic Boom",
     "moveType": 0,
@@ -5139,5 +5207,727 @@ const moveData = [
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 0,
+    "name": "Sand Blast",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bp",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Fatal Shot",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "pp",
+    "inputModern": null,
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to change effect"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "Flash Knuckle",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bp",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "After an OD FLash Knuckle"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "DDT",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "pp",
+    "inputModern": null,
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": [
+      "During a vertical or forward jump. Hold the button to change effect"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "Aerial Flash Knuckle",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bp",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Avenger",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "During Avenger"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "No Chaser",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "pp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Avenger"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "Impaler",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "k",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Rising Uppercut",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "623\u002Bp",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Slam Dunk",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "pp",
+    "inputModern": null,
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": [
+      "After an OD Rising Uppercut"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "Vulcan Blast",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236236\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 1,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Eraser",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214214\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Pale Rider",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236236\u002Bk",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 3,
+    "notes": [
+      "More powerful when vitality is at 25% or below"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "Rawhide",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bw",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Suppressor",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Be",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Outlaw Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Bd",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Double Impact",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Be\u003Ee",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Triple Impact",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "q\u003Ew\u003Ee",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Nose Breaker",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "2\u002Bs\u003E2\u002Be",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Snapback Combo",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "w\u003Ew\u003Ew\u003Ew",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Sweeper",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "5\\6\u002Bqa",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "Scrapper",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Bqa",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "Drive Impact: Muzzle Flash",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ed",
+    "inputModern": null,
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Driver Reversal: Battering Ram",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bed",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "When blocking or during a successful Drive Parry"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "Drive Parry",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ws",
+    "inputModern": null,
+    "costDrive": -1,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to extend the move\u0027s duration"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "Parry Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 0.5,
+    "costSuper": 0,
+    "notes": [
+      "During a Drive Parry"
+    ]
+  },
+  {
+    "character": 0,
+    "name": "Cancel Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 3,
+    "costSuper": 0,
+    "notes": [
+      "While connecting with a special-cancelable move"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "The Devil Inside",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "22\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to extend the move\u0027s duration"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Freeflow Strikes",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bp\u003E6\u002Bp\u003E6\u002Bp",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Effect changes at drink level 4 or higher"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Freeflow Kicks",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bp\u003E6\u002Bk\u003E6\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Swagger Step",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bp",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Arrow Kick",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "623\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Luminous Dive Kick",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Drink level 1 or higher. During a forward jump"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Bakkai",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Drink level 2 or higher"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Tenshin",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "63214\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Drink level 3 or higher. When near opponent"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Swagger Hermit Punch",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bp\u003E6\u002Bp",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Drink level 4 or higher"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Breakin\u0027",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236236\u002Bk",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 1,
+    "notes": [
+      "Hold 2 to change effect"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "The Devil\u0027s Song",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214214\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Getsuga Saiho",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236236\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 3,
+    "notes": [
+      "More powerful when vitality is at 25% or below"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Tensei Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "2\u002Bkk",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Phantom Sway",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "2\u002Bd\u003Ed\u003Ep",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Falling Star Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bs",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Hermit\u0027s Elbow",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Bd",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Senei Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bd",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Bitter Strikes",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "q\u003Ea\u003Ew",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "Drink level 1 or higher"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Full Moon Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bs\u003Es\u003Ep",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "Drink level 2 or higher"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Intoxicated Assault",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Be\u003Ee\u003Ed",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "Drink level 3 or higher"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Ransui Haze",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bd\u003E4\u002Bd\u003Ep",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "Drink level 4 or higher. Effect changes depending on when you press the button for the last attack"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Back Shaver",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "5\\6\u002Bqa",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Wheel Punch",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Bqa",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Drive Impact: Vainglory Strike",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ed",
+    "inputModern": null,
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Drive Reversal: Leg Sweep",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bed",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "When blocking or during a successful Drive Parry"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Drive Parry",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ws",
+    "inputModern": null,
+    "costDrive": -1,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to extend the move\u0027s duration"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Parry Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 0.5,
+    "costSuper": 0,
+    "notes": [
+      "During a Drive Parry"
+    ]
+  },
+  {
+    "character": 1,
+    "name": "Cancel Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 3,
+    "costSuper": 0,
+    "notes": [
+      "While connecting with a special-cancelable move"
+    ]
   }
-]
+];
