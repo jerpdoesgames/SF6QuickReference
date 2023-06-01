@@ -981,6 +981,74 @@ const moveData = [
     ]
   },
   {
+    "character": 13,
+    "name": "Drive Impact: Blitz Combination",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ed",
+    "inputModern": null,
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 13,
+    "name": "Drive Reversal: Strike Eagle",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bed",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "When blocking or during a successful Drive Parry"
+    ]
+  },
+  {
+    "character": 13,
+    "name": "Drive Parry",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ws",
+    "inputModern": null,
+    "costDrive": -1,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to extend the move\u0027s duration"
+    ]
+  },
+  {
+    "character": 13,
+    "name": "Parry Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 0.5,
+    "costSuper": 0,
+    "notes": [
+      "During a Drive Parry"
+    ]
+  },
+  {
+    "character": 13,
+    "name": "Cancel Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 3,
+    "costSuper": 0,
+    "notes": [
+      "While connecting with a special-cancelable move"
+    ]
+  },
+  {
     "character": 7,
     "name": "Fuhajin",
     "moveType": 0,
@@ -1216,6 +1284,74 @@ const moveData = [
     "costSuper": 0,
     "notes": [
       "During a jump, When near opponent"
+    ]
+  },
+  {
+    "character": 7,
+    "name": "Drive Impact: Sekkan Kick",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ed",
+    "inputModern": null,
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 7,
+    "name": "Drive Reversal: Kaita Raid",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bed",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "When blocking or during a successful Drive Parry"
+    ]
+  },
+  {
+    "character": 7,
+    "name": "Drive Parry",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ws",
+    "inputModern": null,
+    "costDrive": -1,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to extend the move\u0027s duration"
+    ]
+  },
+  {
+    "character": 7,
+    "name": "Parry Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 0.5,
+    "costSuper": 0,
+    "notes": [
+      "During a Drive Parry"
+    ]
+  },
+  {
+    "character": 7,
+    "name": "Cancel Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 3,
+    "costSuper": 0,
+    "notes": [
+      "While connecting with a special-cancelable move"
     ]
   },
   {
@@ -5918,6 +6054,452 @@ const moveData = [
   },
   {
     "character": 1,
+    "name": "Cancel Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 3,
+    "costSuper": 0,
+    "notes": [
+      "While connecting with a special-cancelable move"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Kikoken",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "46\u002Bp",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Hundred Lightning Kicks",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Lightning Kick Barrage",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "kk",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "After an OD Hundred Lightning Kicks"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Aerial Hundred Lightning Kicks",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Spinning Bird Kick",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "28\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Hazanshu",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Tensho Kicks",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "22\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Kikosho",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236236\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 1,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Aerial Kikosho",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236236\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 1,
+    "notes": [
+      "During a jump"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Hoyoku-sen",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236236\u002Bk",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Soten Ranka",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214214\u002Bk",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 3,
+    "notes": [
+      "More powerful when vitality is at 25% or below"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Swift Thrust",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\\6\u002Bw",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Hakkei",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Be",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Water Lotus FIst",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "3\u002Be",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Yokusen Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bd",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Falling Crane",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "3\u002Bd",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Yoso Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "2\u002Bs",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During a jump. Can be performed up to three times"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Wall Jump",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "9",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During a jump. Must be near a wall"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Soaring Eagle Punches",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "e\u003Ee",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During a jump"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Serenity Stream",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Orchid Palm",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "q",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Serenity Stream"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Snake Strike",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "w",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Serenity Stream"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Lotus FIst",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "e\u003Ee",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Serenity Stream"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Forward Strike",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "a",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Serenity Stream"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Senpu Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "s",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Serenity Stream"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Tenku Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "d",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Serenity Stream"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Koshuto",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "5\\6\u002Bqa",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Taiji Fan",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Bqa",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Ryuseiraku",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "qa",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Drive Reversal: Hoyoku Kick",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ed",
+    "inputModern": null,
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Drive Impact: Hosen Kick",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bed",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "When blocking or during a successful Drive Parry"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Drive Parry",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ws",
+    "inputModern": null,
+    "costDrive": -1,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to extend the move\u0027s duration"
+    ]
+  },
+  {
+    "character": 15,
+    "name": "Parry Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": null,
+    "costDrive": 0.5,
+    "costSuper": 0,
+    "notes": [
+      "During a Drive Parry"
+    ]
+  },
+  {
+    "character": 15,
     "name": "Cancel Drive Rush",
     "moveType": 4,
     "characterMoveIndex": 0,
