@@ -26,6 +26,8 @@
     --colorDriveDark: #178100;
     --colorSuperBright: #e0d7e3;
     --colorSuperDark: #f63b95;
+
+    --colorDriveBrightHover: #83ff56;
 }
 
 html {
@@ -49,6 +51,27 @@ h1 {
 
 p {
     margin: 0.2rem 0rem 0.4rem 0rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:active {
+    color: var(--colorDriveBright);
+    font-weight: bold;
+}
+
+a:visited {
+    color: var(--colorDriveBright);
+}
+
+a:hover {
+    color: var(--colorDriveBrightHover);
+}
+
+a:active {
+    color: var(--colorDriveBright);
 }
 
 select {
@@ -218,7 +241,6 @@ option {
     font-weight: bold;
 }
 
-
 .modeSelectButton {
     font-size: 2rem;
     color: #c820c5;
@@ -229,4 +251,48 @@ option {
     text-align: center;
     padding: 0.2rem;
     font-weight: bold;
+}
+
+/* Footer */
+/* ======================================= */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+    max-width: 80rem;
+}
+
+#footer p {
+    text-align: center;
+}
+
+#footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.linkIconSVG {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+.linkIconSVG path {
+    fill: var(--colorDriveBright);
+	stroke-width: 1rem;
+	stroke: var(--colorBG);
+	fill-rule: evenodd;
+	paint-order: stroke;
+}
+
+a:hover .linkIconSVG path {
+    fill: var(--colorDriveBrightHover);
 }
