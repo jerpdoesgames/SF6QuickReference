@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/headerStream.css"/>
     <script src="data/moves.js"></script>
     <script src="script.js"></script>
+    <script src="script/headerStream.js"></script>
+    
     <meta property="og:title" content="Street Fighter 6 Quick Reference - By Jerp" />
     <meta property="og:description" content="A simple overview of each character that can fit on a single screen." />
     <meta name="description" content="A simple overview of each character that can fit on a single screen." />
@@ -17,34 +20,43 @@
     <meta property="og:site" content="Jerp's Tools & Apps" />
     <meta property="og:locale" content="en_US" />
 </head>
-<body onload="toolInstance.initialize();">
-
+<body onload="toolInstance.initialize(); initializeHeaderStream();">
 
     <div id="header">
-        <h1>Street Fighter 6 Quick Reference</h1>
-        <p>A simple overview of each character that can fit on a single screen.</p>
-        <div id="headerBar">
-            <select id="characterSelection">
-                <option value="12">Blanka</option>
-                <option value="9">Cammy</option>
-                <option value="15">Chun-Li</option>
-                <option value="8">Deejay</option>
-                <option value="17">Dhalsim</option>
-                <option value="13">Guile</option>
-                <option value="11">Honda</option>
-                <option value="1">Jamie</option>
-                <option value="6">JP</option>
-                <option value="7">Juri</option>
-                <option value="14">Ken</option>
-                <option value="3">Kimberly</option>
-                <option value="5">Lily</option>
-                <option value="0">Luke</option>
-                <option value="2">Manon</option>
-                <option value="4">Marisa</option>
-                <option value="10">Ryu</option>
-                <option value="16">Zangief</option>
-            </select>
+        <div id="headerContent">
+
+            <h1>Street Fighter 6 Quick Reference</h1>
+            <p>A simple overview of each character that can fit on a single screen.</p>
+    
+            <p id="headerStreamOpen" class="mainDescription">Want to support Jerp?  <a href="#" id="headerStreamOpenButton" onclick="headerStreamOpen();">Pop open the stream</a> while you work.</p>
         </div>
+
+        <div id="headerStream">
+
+        </div>
+    </div>
+
+    <div id="toolOptions">
+        <select id="characterSelection">
+            <option value="12">Blanka</option>
+            <option value="9">Cammy</option>
+            <option value="15">Chun-Li</option>
+            <option value="8">Deejay</option>
+            <option value="17">Dhalsim</option>
+            <option value="13">Guile</option>
+            <option value="11">Honda</option>
+            <option value="1">Jamie</option>
+            <option value="6">JP</option>
+            <option value="7">Juri</option>
+            <option value="14">Ken</option>
+            <option value="3">Kimberly</option>
+            <option value="5">Lily</option>
+            <option value="0">Luke</option>
+            <option value="2">Manon</option>
+            <option value="4">Marisa</option>
+            <option value="10">Ryu</option>
+            <option value="16">Zangief</option>
+        </select>
         <!--
         <div id="modeSelector">
             <div id="modeSelectClassic" class="modeSelectButton">
@@ -54,10 +66,8 @@
                 Modern
             </div>
         </div>
-        -->        
+        -->    
     </div>
-
-
 
     <div id="moveListContent">
     </div>
