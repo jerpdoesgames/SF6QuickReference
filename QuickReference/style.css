@@ -5,13 +5,13 @@
     --colorBoxBorder: #b047d3;
     --sizeBoxBorder: 0.2rem;
     --columnCount: 4;
-    --moveEntryWidth: calc((100% / var(--columnCount)) - 1rem - (1rem * (var(--columnCount) - 1)));
+    --moveEntryWidth: calc((100% / var(--columnCount)) - (0.25rem * (var(--columnCount) - 1)));
     --fontSizeBase: 1.5rem;
     --fontSizeHeader: 2.4rem;
     --fontSizeNote: 1.6rem;
     --fontSizeMoveInput: 2.3rem;
     --fontSizeMoveName: 2rem;
-    --moveListHeight: calc(100vh - 10rem);
+    --moveListHeight: calc(100svh - 1rem);
 
     --colorMoveUnique: #fcd63f;
     --colorMoveAnyBright: #ede6f1;
@@ -33,22 +33,28 @@
 }
 
 html {
-    margin: 0px;
+    margin: 0rem;
+    padding: 0rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #070213;
 }
 
 body {
-    margin: 0px;
+    margin: 0rem;
+    padding: 0rem;
     font-size: var(--fontSizeBase);
     color: var(--colorText);
-    padding: 0.6rem;
+}
+
+#header {
+    padding: 0rem 1rem;
+    margin: 0rem 0rem 2rem 0rem;
 }
 
 h1 {
     font-size: 3rem;
     line-height: 3rem;
-    margin: 0rem 0rem 0.6rem 0rem;
+    margin: 0.6rem 0rem 0.6rem 0rem;
 }
 
 p {
@@ -220,11 +226,20 @@ option {
     line-height: var(--fontSizeMoveName);
 }
 
+.moveNameHasMeterCost {
+    width: calc(100% - 5.2rem);
+}
+
 .moveInput {
     font-size: var(--fontSizeMoveInput);
     display: flex;
     align-items: center;
     margin: 0.4rem 0.0rem 0.4rem 0rem;
+    flex-wrap: wrap;
+}
+
+svg {
+    flex-shrink: 0;
 }
 
 .moveNotes {
@@ -235,28 +250,30 @@ option {
 }
 
 #moveListContent {
-    margin: 0rem 0.6rem;
     display: flex;
     flex-direction: column;
     height: var(--moveListHeight);
     flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 1rem 0rem 1rem;
+    box-sizing: border-box;
 }
 
 .moveContainer {
-    margin: 0.6rem 0rem;
     background-color: #24007e;
-    padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+    padding: 0.75rem 0.5rem 0.75rem 0.5rem;
     text-shadow: 0.1rem 0.1rem 0rem rgba(0, 0, 0, 0.5);
     border: var(--sizeBoxBorder) solid var(--colorBoxBorder);
     box-shadow: 0rem 0rem 0.8rem #b151c3;
     background-image: linear-gradient(to right, #420862, #24007f, #24007f, #24007f, #420863);
-    width: var(--moveEntryWidth);
     position: relative;
+    width: var(--moveEntryWidth);
+    box-sizing: border-box;
 }
 
 .moveListHeader {
     display: block;
-    width: var(--moveEntryWidth);
     border-top: var(--sizeBoxBorder) solid var(--colorBoxBorder);
     border-bottom: var(--sizeBoxBorder) solid var(--colorBoxBorder);
     padding: 0.2rem 1rem;
@@ -264,8 +281,10 @@ option {
     color: #ffffff;
     text-shadow: 0rem 0rem 0.6rem #b83bc9;
     font-size: var(--fontSizeHeader);
-    margin: 1rem 0rem 0.75rem 0rem;
     font-weight: bold;
+    text-align: center;
+    width: var(--moveEntryWidth);
+    box-sizing: border-box;
 }
 
 .modeSelectButton {
@@ -289,8 +308,7 @@ option {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 2rem auto;
-    padding-bottom: 2rem;
+    margin: 1rem auto;
     max-width: 80rem;
 }
 
@@ -322,4 +340,71 @@ option {
 
 a:hover .linkIconSVG path {
     fill: var(--colorDriveBrightHover);
+}
+
+/* Let's figure out some mobile support... */
+
+
+@media screen and (max-aspect-ratio: 0.549)
+{
+    :root {
+        --columnCount: 2;
+    }
+}
+
+@media screen and (min-aspect-ratio: 0.5491) and (max-aspect-ratio: 1)
+{
+    :root {
+        --columnCount: 3;
+    }
+}
+
+@media screen and (min-aspect-ratio: 1.5)
+{
+    :root {
+        --columnCount: 5;
+    }
+}
+
+
+@media screen and (max-width: 300px)
+{
+    :root {
+        font-size: 3px;
+    }
+}
+
+@media screen and (min-width: 301px) and (max-width: 400px)
+{
+    :root {
+        font-size: 4px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px)
+{
+    :root {
+        font-size: 5px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px)
+{
+    :root {
+        font-size: 6px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1100px)
+{
+    :root {
+        font-size: 7px;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1400px)
+{
+    :root {
+        font-size: 8px;
+    }
 }

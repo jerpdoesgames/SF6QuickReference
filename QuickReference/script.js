@@ -355,6 +355,7 @@ class SF6QuickReference
 
             for (const curMove of moveList)
             {
+                let hasMeterCost = false;
                 let notesString = "";
                 for (const curNote of curMove.notes)
                 {
@@ -377,18 +378,22 @@ class SF6QuickReference
                 if (curMove.costSuper > 0)
                 {
                     meterCostDiv = this.getMeterCostElements(curMove.costSuper, true);
+                    hasMeterCost = true;
                 }
                 else if (curMove.costDrive != 0)
                 {
                     meterCostDiv = this.getMeterCostElements(curMove.costDrive, false);
+                    hasMeterCost = true;
                 }
+
+                let nameMeterCostClass = hasMeterCost ? " moveNameHasMeterCost" : "";
 
                 if (curMove.inputClassic != null)
                 {
                     let inputString = this.getParsedMoveString(curMove);
                     output += `
                     <div class="moveContainer">
-                        <div class="moveName">${curMove.name}</div>
+                        <div class="moveName${nameMeterCostClass}">${curMove.name}</div>
                         <div class="moveInput">${inputString}</div>
                         ${notesDiv}
                         ${meterCostDiv}                        
@@ -399,7 +404,7 @@ class SF6QuickReference
             }
         }
 
-        document.getElementById("moveListContent").innerHTML = output;
+        this.moveListContent.innerHTML = output;
     }
 
     saveConfig()
@@ -417,6 +422,7 @@ class SF6QuickReference
         this.config.selectedCharacter = parseInt(this.characterSelection.value);
         this.saveConfig();
         this.outputFullMoveList(this.config.selectedCharacter);
+        this.moveListContent.scrollIntoView(true);
     }
 
     loadConfig()
@@ -440,6 +446,7 @@ class SF6QuickReference
     initialize()
     {
         this.characterSelection = document.getElementById("characterSelection");
+        this.moveListContent = document.getElementById("moveListContent");
         this.updateOnFieldChange = true;
 
         this.loadConfig();
@@ -447,7 +454,6 @@ class SF6QuickReference
         this.characterSelection.addEventListener("change", this.onCharacterSelected.bind(this));
         this.outputFullMoveList(this.config.selectedCharacter);
     }
-
 }
 
 var toolInstance = new SF6QuickReference();
