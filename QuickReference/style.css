@@ -13,19 +13,21 @@
     --fontSizeMoveName: 2rem;
     --moveListHeight: calc(100vh - 10rem);
 
-    --colorMoveAnyBright: #aea9b1;
+    --colorMoveUnique: #fcd63f;
+    --colorMoveAnyBright: #ede6f1;
     --colorMoveAnyDark: #222123;
-    --colorMoveLightBright: #57b3bc;
-    --colorMoveLightDark: #27596e;
-    --colorMoveMediumBright: #b7b344;
-    --colorMoveMediumDark: #6e6b28;
-    --colorMoveHeavyBright: #b7696e;
+    --colorMoveLightBright: #76d4dd;
+    --colorMoveLightDark: #1f4c5f;
+    --colorMoveMediumBright: #dfda5c;
+    --colorMoveMediumDark: #635f1d;
+    --colorMoveHeavyBright: #f39399;
     --colorMoveHeavyDark: #7f2628;
-    --colorMoveMisc: #aea9b1;
+    --colorMoveMisc: #d6d3d8;
     --colorDriveBright: #44ff00;
     --colorDriveDark: #178100;
-    --colorSuperBright: #e0d7e3;
+    --colorSuperBright: #ebe4ee;
     --colorSuperDark: #f63b95;
+    --colorNote: #c5ade4;
 
     --colorDriveBrightHover: #83ff56;
 }
@@ -143,6 +145,12 @@ option {
     margin: 0rem 0.6rem;
 }
 
+.icon360 {
+    width: var(--fontSizeMoveInput);
+    height: var(--fontSizeMoveInput);
+    margin: 0rem 0.2rem;
+}
+
 .iconNeutral {
     width: var(--fontSizeMoveInput);
     height: var(--fontSizeMoveInput);
@@ -153,6 +161,21 @@ option {
     width: var(--fontSizeMoveInput);
     height: var(--fontSizeMoveInput);
     margin: 0rem 0.2rem;
+}
+
+.iconHold {
+    width: var(--fontSizeMoveInput);
+    height: var(--fontSizeMoveInput);
+    margin: 0rem 0.2rem;
+}
+
+.moveNotes .iconPunchKick {
+    width: var(--fontSizeNote);
+    height: var(--fontSizeNote);
+}
+
+.colorMoveUnique {
+    fill: var(--colorMoveUnique);
 }
 
 .colorMoveMisc {
@@ -194,17 +217,21 @@ option {
 .moveName {
     font-weight: bold;
     font-size: var(--fontSizeMoveName);
+    line-height: var(--fontSizeMoveName);
 }
 
 .moveInput {
     font-size: var(--fontSizeMoveInput);
     display: flex;
     align-items: center;
+    margin: 0.4rem 0.0rem 0.4rem 0rem;
 }
 
 .moveNotes {
-    color: #c8a0f7;
+    color: var(--colorNote);
     font-size: var(--fontSizeNote);
+    display: flex;
+    align-items: center;
 }
 
 #moveListContent {
@@ -218,7 +245,7 @@ option {
 .moveContainer {
     margin: 0.6rem 0rem;
     background-color: #24007e;
-    padding: 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.75rem;
     text-shadow: 0.1rem 0.1rem 0rem rgba(0, 0, 0, 0.5);
     border: var(--sizeBoxBorder) solid var(--colorBoxBorder);
     box-shadow: 0rem 0rem 0.8rem #b151c3;

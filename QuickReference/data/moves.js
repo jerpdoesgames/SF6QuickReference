@@ -4309,7 +4309,7 @@ const moveData = [
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
-      "Only d can be held"
+      "Only [d] can be held"
     ]
   },
   {
@@ -4323,7 +4323,7 @@ const moveData = [
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
-      "Only d can be held"
+      "Only [d] can be held"
     ]
   },
   {
@@ -4361,7 +4361,7 @@ const moveData = [
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
-      "Only d can be held"
+      "Only [e] can be held"
     ]
   },
   {
@@ -4370,7 +4370,7 @@ const moveData = [
     "moveType": 0,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "No input",
+    "inputClassic": "-",
     "inputModern": null,
     "costDrive": 0,
     "costSuper": 0,

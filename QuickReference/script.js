@@ -109,6 +109,30 @@ class SF6QuickReference
         `
     }
 
+    getHoldIcon()
+    {
+        return `
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="iconHold" viewbox="0 0 100 102">
+            <path class="colorMoveAnyBright" fill-rule="evenodd" d="M50.000,55.000 C77.614,55.000 100.000,65.521 100.000,78.500 C100.000,91.479 80.453,101.1000 50.000,101.1000 C19.547,101.1000 -0.000,91.479 -0.000,78.500 C-0.000,65.521 22.386,55.000 50.000,55.000 Z"/>
+            <path class="colorMoveAnyDark" fill-rule="evenodd" d="M47.1000,96.1000 C77.036,96.1000 96.155,90.420 96.000,78.1000 C95.878,70.019 93.000,71.000 93.000,71.000 C93.000,71.000 90.951,60.816 79.000,56.1000 C67.049,53.184 60.000,53.000 60.000,53.000 L57.1000,56.000 C57.723,55.856 72.364,57.804 77.000,60.000 C81.636,62.196 89.000,66.120 89.000,71.000 C89.000,75.880 75.651,86.000 49.1000,86.000 C24.349,86.000 10.1000,75.763 10.1000,71.000 C10.1000,66.237 19.599,59.156 25.1000,57.1000 C32.401,56.844 41.1000,56.000 41.1000,56.000 L39.1000,53.000 C39.1000,53.000 26.194,54.765 16.1000,58.1000 C7.806,63.235 6.1000,71.000 6.1000,71.000 C6.1000,71.000 3.1000,69.984 3.1000,79.1000 C3.1000,87.159 18.964,96.1000 47.1000,96.1000 Z"/>
+            <path class="colorMoveAnyBright" fill-rule="evenodd" d="M32.1000,0.982 L67.000,0.982 L67.000,15.049 L82.000,15.049 L50.044,68.000 L17.1000,15.049 L32.1000,15.049 L32.1000,0.982 Z"/>
+            <path class="colorMoveAnyDark" fill-rule="evenodd" d="M35.1000,2.982 L64.000,2.982 L64.000,18.049 L77.000,18.049 L50.044,64.000 L21.1000,18.049 L35.1000,18.049 L35.1000,2.982 Z"/>
+            <path class="colorMoveUnique" fill-rule="evenodd" d="M40.1000,7.982 L59.000,7.982 L59.000,23.049 L69.000,23.049 L50.044,56.000 L30.1000,23.049 L40.1000,23.049 L40.1000,7.982 Z"/>
+        </svg>
+        `;
+    }
+
+    get360Icon()
+    {
+        return `
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon360" viewbox="0 0 81 80">
+            <path class="colorMoveAnyBright" fill-rule="evenodd" d="M40.023,12.585 C54.239,12.585 65.764,24.561 65.764,39.334 C65.764,54.108 54.239,66.084 40.023,66.084 C25.807,66.084 14.283,54.108 14.283,39.334 C14.283,24.561 25.807,12.585 40.023,12.585 Z"/>
+            <path class="colorMoveAnyDark" fill-rule="evenodd" d="M39.580,15.146 C52.565,15.146 63.092,26.086 63.092,39.580 C63.092,53.074 52.565,64.013 39.580,64.013 C26.596,64.013 16.069,53.074 16.069,39.580 C16.069,26.086 26.596,15.146 39.580,15.146 Z"/>
+            <path class="colorMoveAnyBright" fill-rule="evenodd" d="M40.000,34.963 C40.000,34.963 80.295,34.814 80.295,34.963 C80.295,46.075 77.867,80.000 39.000,80.000 C15.144,80.000 0.000,59.244 0.000,40.000 C0.000,18.987 15.940,-0.000 39.000,-0.000 C59.270,-0.000 68.206,10.786 68.206,10.786 L72.236,7.764 L76.265,25.897 L59.140,20.860 L62.162,17.838 C62.162,17.838 53.529,8.772 38.993,8.772 C24.456,8.772 8.772,21.694 8.772,40.000 C8.772,58.306 24.054,71.228 38.993,71.228 C67.185,71.228 71.228,44.029 71.228,44.029 L40.000,44.029 L40.000,34.963 Z"/>
+        </svg>
+        `;
+    }
+
     getNeutralIcon()
     {
         return `
@@ -224,6 +248,15 @@ class SF6QuickReference
                 case ">":
                     output += this.getCancelArrowIcon();
                     break;
+                case "o":
+                    output += this.get360Icon();
+                    break;
+                case "-":
+                    output += "(No input)";
+                    break;
+                case "h":
+                    output += this.getHoldIcon();
+                    break;
                 default:
                     output += curChar;
                     break;
@@ -281,6 +314,12 @@ class SF6QuickReference
         return output;
     }
 
+    getParsedNoteString(aInput)
+    {
+        aInput = aInput.replace("[e]", this.getKickIcon(MOVE_STRENGTH_HEAVY));
+        return aInput.replace("[d]", this.getKickIcon(MOVE_STRENGTH_HEAVY));
+    }
+
     getParsedMoveString(aMove)
     {
         return this.parseClassicMoveString(aMove.inputClassic);
@@ -330,7 +369,7 @@ class SF6QuickReference
 
                 if (notesString.length > 0)
                 {
-                    notesDiv = `<div class="moveNotes">${notesString}</div>`;
+                    notesDiv = `<div class="moveNotes">${this.getParsedNoteString(notesString)}</div>`;
                 }
 
                 let meterCostDiv = "";
