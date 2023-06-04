@@ -185,12 +185,12 @@ class SF6QuickReference
         `;        
     }
 
-    getColorPrefix(aStrength)
+    getColorPrefix(aStrength, aUseMiscAsAny = false)
     {
         let colorPrefix = NAME_PREFIX_ANY;
 
         if (aStrength == MOVE_STRENGTH_ANY)
-            colorPrefix = NAME_PREFIX_ANY;
+            colorPrefix = aUseMiscAsAny ? "Misc" : NAME_PREFIX_ANY;
         if (aStrength == MOVE_STRENGTH_LIGHT)
             colorPrefix = NAME_PREFIX_LIGHT;
         else if (aStrength == MOVE_STRENGTH_MEDIUM)
@@ -292,7 +292,7 @@ class SF6QuickReference
     
     getPunchIcon(aStrength)
     {
-        let colorPrefix = this.getColorPrefix(aStrength);
+        let colorPrefix = this.getColorPrefix(aStrength, true);
 
         let titleText = "Any Punch Button";
 
@@ -321,7 +321,7 @@ class SF6QuickReference
 
     getKickIcon(aStrength)
     {
-        let colorPrefix = this.getColorPrefix(aStrength);
+        let colorPrefix = this.getColorPrefix(aStrength, true);
 
         let titleText = "Any Kick Button";
 
