@@ -528,7 +528,7 @@ class SF6QuickReference
 
     isMoveValidForControlScheme(aMove)
     {
-        return true;
+        return ((this.config.controlScheme == CONTROLS_CLASSIC && aMove.inputClassic != null) || (this.config.controlScheme == CONTROLS_MODERN && aMove.inputModern != null));
     }
 
     getMoveList(aCharacter, aType = -1)
@@ -551,13 +551,15 @@ class SF6QuickReference
         let output = "";
         for (let i = 0; i < moveTypeNames.length; i++)
         {
-            output += `<div class="moveListHeader">${moveTypeNames[i]}</div>`;
+            
             let moveList = this.getMoveList(aCharacter, i);
+
+
+            if (moveList.length > 0)
+                output += `<div class="moveListHeader">${moveTypeNames[i]}</div>`;
 
             for (const curMove of moveList)
             {
-                let hasDriveCost = false;
-                let hasSuperCost = false;
                 let notesString = "";
                 for (const curNote of curMove.notes)
                 {
@@ -584,28 +586,24 @@ class SF6QuickReference
 
                 let nameMeterCostClass = "";
 
-                if (hasDriveCost && hasSuperCost)
+                if (curMove.costDrive != 0 && curMove.costSuper > 0)
                 {
-                    nameMeterCostClass = "moveNameHasBothMeterCost";
+                    nameMeterCostClass = " moveNameHasBothMeterCost";
                 }
-                else
+                else if (curMove.costDrive != 0 || curMove.costSuper > 0)
                 {
                     nameMeterCostClass = " moveNameHasMeterCost";
                 }
 
-                if ((this.config.controlScheme == CONTROLS_CLASSIC && curMove.inputClassic != null) || (this.config.controlScheme == CONTROLS_MODERN && curMove.inputModern != null))
-                {
-                    let inputString = this.getParsedMoveString(curMove);
-                    output += `
-                    <div class="moveContainer">
-                        <div class="moveName${nameMeterCostClass}">${curMove.name}</div>
-                        <div class="moveInput">${inputString}</div>
-                        ${notesDiv}
-                        ${meterCostDiv}                        
-                    </div>
-                    `;
-                }
-
+                let inputString = this.getParsedMoveString(curMove);
+                output += `
+                <div class="moveContainer">
+                    <div class="moveName${nameMeterCostClass}">${curMove.name}</div>
+                    <div class="moveInput">${inputString}</div>
+                    ${notesDiv}
+                    ${meterCostDiv}                        
+                </div>
+                `;
             }
         }
 

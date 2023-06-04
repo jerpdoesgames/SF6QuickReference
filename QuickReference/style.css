@@ -7,7 +7,7 @@
     --columnCount: 4;
     --moveEntryWidth: calc((100% / var(--columnCount)) - (0.25rem * (var(--columnCount) - 1)));
     --fontSizeBase: 1.5rem;
-    --fontSizeHeader: 2.4rem;
+    --fontSizeHeader: 2.2rem;
     --fontSizeNote: 1.6rem;
     --fontSizeMoveInput: 2.3rem;
     --fontSizeMoveName: 2rem;
@@ -317,7 +317,15 @@ option {
 }
 
 .moveNameHasMeterCost {
-    width: calc(100% - 5.2rem);
+    width: calc(100% - 5.0rem);
+    font-size: calc(var(--fontSizeMoveName) * 0.8);
+    line-height: calc(var(--fontSizeMoveName) * 0.8);
+}
+
+.moveNameHasBothMeterCost {
+    width: calc(100% - 12.5rem);
+    font-size: calc(var(--fontSizeMoveName) * 0.7);
+    line-height: calc(var(--fontSizeMoveName) * 0.7);
 }
 
 .moveInput {
@@ -532,6 +540,11 @@ a:hover .linkIconSVG path {
 {
     :root {
         font-size: 3px;
+
+        --fontSizeHeader: 2rem;
+        --fontSizeNote: 1.4rem;
+        --fontSizeMoveInput: 2rem;
+        --fontSizeMoveName: 1.9rem;
     }
 }
 
@@ -539,6 +552,15 @@ a:hover .linkIconSVG path {
 {
     :root {
         font-size: 4px;
+
+        --fontSizeHeader: 2rem;
+        --fontSizeNote: 1.5rem;
+        --fontSizeMoveInput: 2rem;
+        --fontSizeMoveName: 1.9rem;
+    }
+
+    #moveListContent {
+        gap: 0.5rem;
     }
 }
 
@@ -546,6 +568,15 @@ a:hover .linkIconSVG path {
 {
     :root {
         font-size: 5px;
+
+        --fontSizeHeader: 2rem;
+        --fontSizeNote: 1.5rem;
+        --fontSizeMoveInput: 2rem;
+        --fontSizeMoveName: 2rem;
+    }
+
+    #moveListContent {
+        gap: 0.6rem;
     }
 }
 
@@ -553,7 +584,17 @@ a:hover .linkIconSVG path {
 {
     :root {
         font-size: 6px;
+
+        --fontSizeHeader: 2.1rem;
+        --fontSizeNote: 1.5rem;
+        --fontSizeMoveInput: 2rem;
+        --fontSizeMoveName: 2rem;
     }
+
+    #moveListContent {
+        gap: 0.7rem;
+    }
+
 }
 
 @media screen and (min-width: 801px) and (max-width: 1100px)
