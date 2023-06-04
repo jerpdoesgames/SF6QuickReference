@@ -7178,11 +7178,11 @@ const moveData = [
   },
   {
     "character": 15,
-    "name": "Lotus FIst",
+    "name": "Lotus Fist",
     "moveType": 2,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "e\u003Ee",
+    "inputClassic": "e",
     "inputModern": null,
     "costDrive": 0,
     "costSuper": 0,
