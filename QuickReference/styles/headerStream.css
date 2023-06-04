@@ -4,6 +4,8 @@
     margin: 1rem auto 1.5rem auto;
     align-items: center;
     justify-content: center;
+    max-width: 80rem;
+    line-height: 150%;
 }
 
 #headerStream {

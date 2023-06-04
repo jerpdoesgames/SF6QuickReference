@@ -44,7 +44,7 @@ const moveData = [
     "characterMoveIndex": 3,
     "sectionMoveIndex": 3,
     "inputClassic": "214\u002Bk",
-    "inputModern": "2\u002Bs",
+    "inputModern": "s",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -58,7 +58,7 @@ const moveData = [
     "characterMoveIndex": 4,
     "sectionMoveIndex": 4,
     "inputClassic": "236\u002Bk",
-    "inputModern": "s",
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -325,13 +325,49 @@ const moveData = [
     "notes": []
   },
   {
+    "character": 10,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 10,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 10,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
+    "notes": []
+  },
+  {
     "character": 14,
     "name": "Hadoken",
     "moveType": 0,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -343,7 +379,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "623\u002Bp",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -357,7 +393,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -371,7 +407,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -385,7 +421,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "623\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -399,7 +435,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -411,7 +447,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Ba",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -425,7 +461,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bs",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -439,7 +475,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bd",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bs",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -453,7 +489,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bk",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -467,7 +503,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -479,7 +515,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -491,7 +527,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -505,7 +541,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "kk",
-    "inputModern": null,
+    "inputModern": "mh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -517,7 +553,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "a",
-    "inputModern": null,
+    "inputModern": "l",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -531,7 +567,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "s",
-    "inputModern": null,
+    "inputModern": "mh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -545,7 +581,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "d",
-    "inputModern": null,
+    "inputModern": "h",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -571,7 +607,19 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "s\u003Es\u003Ed",
-    "inputModern": null,
+    "inputModern": "m\u003Em\u003Em",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 14,
+    "name": "Low Spinning Sweep",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -583,7 +631,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -597,7 +645,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bq\u002Ba",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -611,7 +659,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -623,7 +671,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -637,7 +685,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -651,7 +699,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -665,12 +713,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "When connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 14,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 14,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em\u003Em",
+    "costDrive": 0,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 14,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 13,
@@ -679,7 +763,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "46\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bs\\46\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -693,7 +777,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "28\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bs\\28\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -707,7 +791,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -719,7 +803,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -761,7 +845,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4646\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -773,7 +857,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -785,7 +869,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4646\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -823,7 +907,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Be",
-    "inputModern": null,
+    "inputModern": "6\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -835,7 +919,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Ba",
-    "inputModern": null,
+    "inputModern": "4\u002Bl",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -847,7 +931,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\\6\u002Bs",
-    "inputModern": null,
+    "inputModern": "4\\6\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -907,7 +991,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bs\u003E6\u002Bw",
-    "inputModern": null,
+    "inputModern": "2\u002Bm\u003E6\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -926,12 +1010,36 @@ const moveData = [
   },
   {
     "character": 13,
+    "name": "Dragon Sweep",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 13,
+    "name": "Phantom Cutter",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh\u003E3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 13,
     "name": "Dragon Suplex",
     "moveType": 3,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bq\u002Ba",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -945,7 +1053,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bq\u002Ba",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -959,7 +1067,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bq\u002Ba",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -973,7 +1081,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bq\u002Ba",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -987,7 +1095,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -999,7 +1107,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -1013,7 +1121,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -1027,7 +1135,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -1041,12 +1149,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 13,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 13,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 13,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
   },
   {
     "character": 7,
@@ -1055,7 +1199,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -1067,7 +1211,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Ba",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -1081,7 +1225,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bs",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -1109,7 +1253,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "623\u002Bp",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -1121,7 +1265,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -1135,7 +1279,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": null,
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1149,7 +1293,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": [
@@ -1163,11 +1307,13 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": [
-      "Hold button to dash"
+      "Hold button to dash",
+      "\uFF08\u30DC\u30BF\u30F3\u30DB\u30FC\u30EB\u30C9\u3067\u7A81\u9032\uFF09",
+      "THANKS CAPCOM"
     ]
   },
   {
@@ -1177,7 +1323,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -1203,7 +1349,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bs",
-    "inputModern": null,
+    "inputModern": "6\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1215,7 +1361,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Be",
-    "inputModern": null,
+    "inputModern": "6\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1227,7 +1373,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bd",
-    "inputModern": null,
+    "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1239,7 +1385,19 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003E4\u002Be\u003Ee",
-    "inputModern": null,
+    "inputModern": "m\u003E4\u002Bm\u003Em",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 7,
+    "name": "Slash Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1251,7 +1409,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bq\u002Ba",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1265,7 +1423,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bq\u002Ba",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1279,7 +1437,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "q\u002Ba",
-    "inputModern": null,
+    "inputModern": "lm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1293,7 +1451,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -1305,7 +1463,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -1319,7 +1477,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -1333,7 +1491,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -1347,12 +1505,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 7,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 7,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 1,
+    "notes": []
+  },
+  {
+    "character": 7,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 3,
@@ -1361,7 +1555,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -1373,7 +1567,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -1387,7 +1581,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bk",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -1399,7 +1593,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "p",
-    "inputModern": null,
+    "inputModern": "4\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1413,7 +1607,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "a",
-    "inputModern": null,
+    "inputModern": "5\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1427,12 +1621,22 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "s",
-    "inputModern": null,
+    "inputModern": "2\u002By",
     "costDrive": 0,
     "costSuper": 0,
-    "notes": [
-      "Automatically activates after getting close with Sprint"
-    ]
+    "notes": []
+  },
+  {
+    "character": 3,
+    "name": "Neck Hunter",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "d",
+    "inputModern": "6\u002By",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
   },
   {
     "character": 3,
@@ -1444,7 +1648,9 @@ const moveData = [
     "inputModern": null,
     "costDrive": 0,
     "costSuper": 0,
-    "notes": []
+    "notes": [
+      "Automatically activates after getting close with Sprint"
+    ]
   },
   {
     "character": 3,
@@ -1453,7 +1659,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "p",
-    "inputModern": null,
+    "inputModern": "y",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1467,7 +1673,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "k",
-    "inputModern": null,
+    "inputModern": "2\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1481,7 +1687,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -1493,7 +1699,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -1545,7 +1751,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bp",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -1559,7 +1765,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -1571,7 +1777,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": [
@@ -1585,7 +1791,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -1597,7 +1803,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "sh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": [
@@ -1611,7 +1817,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -1625,7 +1831,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "3\u002Bs",
-    "inputModern": null,
+    "inputModern": "3\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1637,7 +1843,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bd",
-    "inputModern": null,
+    "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1649,7 +1855,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bd",
-    "inputModern": null,
+    "inputModern": "6\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1661,7 +1867,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "7\\8\\9",
-    "inputModern": null,
+    "inputModern": "7\\8\\9",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1670,12 +1876,24 @@ const moveData = [
   },
   {
     "character": 3,
+    "name": "Water Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 3,
     "name": "Elbow Drop",
     "moveType": 2,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bw",
-    "inputModern": null,
+    "inputModern": "2\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1689,7 +1907,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003Ee",
-    "inputModern": null,
+    "inputModern": "m\u003Em",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1701,7 +1919,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "q\u003Ew\u003Ee\u003Ed",
-    "inputModern": null,
+    "inputModern": "l\u003El\u003El\u003El",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1713,7 +1931,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "q\u003Ew\u003E2\u002Be\u003Ed",
-    "inputModern": null,
+    "inputModern": "l\u003El\u003E2\u002Bl\u003El",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1725,7 +1943,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "q\u003Ew\u003E2\u002Be2\u002Bd",
-    "inputModern": null,
+    "inputModern": "l\u003El\u003E2\u002Bl\u003E2\u002Bl",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1737,7 +1955,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bq\u002Ba",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1746,12 +1964,12 @@ const moveData = [
   },
   {
     "character": 3,
-    "name": "Bell RInger",
+    "name": "Bell Ringer",
     "moveType": 3,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bq\u002Ba",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1760,24 +1978,24 @@ const moveData = [
   },
   {
     "character": 3,
-    "name": "Steadfast Strike",
+    "name": "Drive Impact: Steadfast Strike",
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "e\u002Bd",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
   },
   {
     "character": 3,
-    "name": "Shapeless State",
+    "name": "Drive Reversal: Shapeless State",
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Be\u002Bd",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -1791,7 +2009,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u002Bs",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -1805,7 +2023,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -1819,12 +2037,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 3,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 3,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 3,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 0,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 12,
@@ -1833,7 +2087,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -1847,7 +2101,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "46\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -1859,7 +2113,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "28\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -1871,7 +2125,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "63214\u002Bk",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -1883,7 +2137,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "46\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -1923,7 +2177,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": null,
-    "inputModern": null,
+    "inputModern": "Any direction \u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -1937,7 +2191,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -1949,7 +2203,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -1961,7 +2215,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -1987,7 +2241,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bs",
-    "inputModern": null,
+    "inputModern": "6\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -1999,7 +2253,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bs",
-    "inputModern": null,
+    "inputModern": "4\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2011,7 +2265,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Be",
-    "inputModern": null,
+    "inputModern": "6\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2023,7 +2277,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "3\u002Be",
-    "inputModern": null,
+    "inputModern": "3\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2035,7 +2289,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bpp",
-    "inputModern": null,
+    "inputModern": "2\u002Bmh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2047,7 +2301,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "p",
-    "inputModern": null,
+    "inputModern": "l",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2061,7 +2315,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "k",
-    "inputModern": null,
+    "inputModern": "m\\h",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2075,7 +2329,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bkkk",
-    "inputModern": null,
+    "inputModern": "6\u002Byyy",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2087,7 +2341,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bkkk",
-    "inputModern": null,
+    "inputModern": "4\u002Byyy",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2099,7 +2353,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2113,7 +2367,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2127,7 +2381,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "qa",
-    "inputModern": null,
+    "inputModern": "lm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2141,7 +2395,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -2153,7 +2407,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -2167,7 +2421,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -2181,7 +2435,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -2195,12 +2449,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 12,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 12,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 1,
+    "notes": []
+  },
+  {
+    "character": 12,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 17,
@@ -2209,7 +2499,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -2223,7 +2513,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bk",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -2235,7 +2525,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "63214\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -2247,7 +2537,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "63214\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -2259,7 +2549,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "63214\u002Bp",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -2311,7 +2601,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\\6\u002Bppp\\kkk",
-    "inputModern": null,
+    "inputModern": "4\\6\u002Bs",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2325,7 +2615,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -2337,7 +2627,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": [
@@ -2351,7 +2641,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -2365,7 +2655,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bw",
-    "inputModern": null,
+    "inputModern": "4\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2377,7 +2667,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Be",
-    "inputModern": null,
+    "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2389,7 +2679,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "1\u002Be",
-    "inputModern": null,
+    "inputModern": "1\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2401,7 +2691,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "1\u002Ba",
-    "inputModern": null,
+    "inputModern": "1\u002Bl",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2425,7 +2715,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "1\u002Bs",
-    "inputModern": null,
+    "inputModern": "1\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2475,7 +2765,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2484,12 +2774,24 @@ const moveData = [
   },
   {
     "character": 17,
+    "name": "Long Sliding Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 17,
     "name": "Yoga Smash",
     "moveType": 3,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2503,7 +2805,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2517,7 +2819,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bqa",
-    "inputModern": null,
+    "inputModern": "2\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2531,7 +2833,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -2543,7 +2845,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -2557,7 +2859,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -2571,7 +2873,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -2585,12 +2887,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "Cancel Drive Rush"
     ]
+  },
+  {
+    "character": 17,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 17,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 17,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 2,
@@ -2599,7 +2937,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "63214\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -2613,7 +2951,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bk",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -2625,7 +2963,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -2637,7 +2975,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -2651,7 +2989,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "k",
-    "inputModern": null,
+    "inputModern": "y",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2665,7 +3003,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -2677,7 +3015,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -2689,7 +3027,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -2703,7 +3041,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Be",
-    "inputModern": null,
+    "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2727,7 +3065,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003Es",
-    "inputModern": null,
+    "inputModern": "m\u003Em",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2739,7 +3077,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bs\u003Es",
-    "inputModern": null,
+    "inputModern": "4\u002Bm\u003Em",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2751,7 +3089,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "e\u003Ee",
-    "inputModern": null,
+    "inputModern": "h\u003Eh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2763,7 +3101,19 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Be\u003Ee",
-    "inputModern": null,
+    "inputModern": "2\u002Bh\u003Eh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 2,
+    "name": "Croisee",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2775,7 +3125,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2789,7 +3139,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2803,7 +3153,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2815,7 +3165,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2829,7 +3179,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2843,7 +3193,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -2855,9 +3205,45 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0,
     "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 2,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 2,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 1,
+    "notes": []
+  },
+  {
+    "character": 2,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
     "notes": []
   },
   {
@@ -2867,7 +3253,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -2881,7 +3267,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bp\u003E6\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bs\u003E6\u002By",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -2893,7 +3279,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "623\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -2917,7 +3303,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -2931,7 +3317,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "p\u003Ep",
-    "inputModern": null,
+    "inputModern": "5\\6\u002By\u003E5\\6\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2945,7 +3331,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "k",
-    "inputModern": null,
+    "inputModern": "4\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2959,7 +3345,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "qa",
-    "inputModern": null,
+    "inputModern": "2\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -2973,7 +3359,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": [
@@ -2987,7 +3373,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -2999,7 +3385,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -3012,8 +3398,8 @@ const moveData = [
     "moveType": 2,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "eh\\dh",
-    "inputModern": null,
+    "inputClassic": "ec\\dc",
+    "inputModern": "hu",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3027,7 +3413,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "q\u003Eq",
-    "inputModern": null,
+    "inputModern": "l\u003El",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3051,7 +3437,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "e\u003Ee",
-    "inputModern": null,
+    "inputModern": "h\u003Eh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3063,7 +3449,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003Ew",
-    "inputModern": null,
+    "inputModern": "m\u003Em",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3077,7 +3463,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Be",
-    "inputModern": null,
+    "inputModern": "2\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3091,7 +3477,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Be",
-    "inputModern": null,
+    "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3103,7 +3489,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bw\u003Ee",
-    "inputModern": null,
+    "inputModern": "6\u002Bm\u003Em",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3115,7 +3501,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bw\u003Ed",
-    "inputModern": null,
+    "inputModern": "6\u002Bm\u003Eh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3139,7 +3525,19 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bd\u003E6\u002Bd",
-    "inputModern": null,
+    "inputModern": "6\u002Bh\u003E6\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 4,
+    "name": "Gaia Bash",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3151,7 +3549,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3165,7 +3563,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3179,7 +3577,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -3191,7 +3589,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -3205,7 +3603,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -3219,7 +3617,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -3233,12 +3631,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 4,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 4,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 4,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 0,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 5,
@@ -3247,7 +3681,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -3261,7 +3695,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -3275,7 +3709,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "623\u002Bp",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -3289,7 +3723,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "pp",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3303,7 +3737,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ppp",
-    "inputModern": null,
+    "inputModern": "u\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -3317,7 +3751,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "o\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -3331,7 +3765,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -3343,7 +3777,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": [
@@ -3357,7 +3791,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "sh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": [
@@ -3371,7 +3805,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -3397,7 +3831,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Be",
-    "inputModern": null,
+    "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3409,7 +3843,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Be",
-    "inputModern": null,
+    "inputModern": "2\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3423,7 +3857,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003Ew",
-    "inputModern": null,
+    "inputModern": "m\u003Em",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3437,7 +3871,43 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Be\u003Ee\u003Ee",
-    "inputModern": null,
+    "inputModern": "6\u002Bh\u003Eh\u003Eh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 5,
+    "name": "Squal Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 5,
+    "name": "Canyon Throw",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "5\\6\u002Bqa",
+    "inputModern": "5\\6\u002Blm",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 5,
+    "name": "Falling Cliff",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Bqa",
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3449,7 +3919,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -3461,7 +3931,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -3475,7 +3945,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -3489,7 +3959,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -3503,12 +3973,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 5,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 5,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 5,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
   },
   {
     "character": 6,
@@ -3517,7 +4023,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "22\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -3529,7 +4035,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -3581,7 +4087,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "22\u002Bk",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -3607,7 +4113,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -3619,7 +4125,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -3631,7 +4137,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -3643,7 +4149,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -3657,7 +4163,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bs",
-    "inputModern": null,
+    "inputModern": "6\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3669,7 +4175,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "3\u002Be",
-    "inputModern": null,
+    "inputModern": "3\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3681,7 +4187,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bd",
-    "inputModern": null,
+    "inputModern": "6\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3693,7 +4199,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bw\u003Ew",
-    "inputModern": null,
+    "inputModern": "4\u002Bm\u003Em",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3705,7 +4211,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "d\u003Ee",
-    "inputModern": null,
+    "inputModern": "h\u003Eh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3717,7 +4223,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "d\u003Ee\u003Ee",
-    "inputModern": null,
+    "inputModern": "h\u003Eh\u003Eh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3729,7 +4235,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "d\u003Ee\u003Ed",
-    "inputModern": null,
+    "inputModern": "h\u003Eh\u003E4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3741,7 +4247,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3755,7 +4261,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3769,11 +4275,11 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "qa",
-    "inputModern": null,
+    "inputModern": "lm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
-      "When near opponent"
+      "During a jump. When near opponent"
     ]
   },
   {
@@ -3783,7 +4289,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -3795,7 +4301,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -3809,7 +4315,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -3823,7 +4329,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -3837,12 +4343,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 6,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 6,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em\u003Em\u003Em",
+    "costDrive": 0,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 6,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 8,
@@ -3851,7 +4393,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "46\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -3863,7 +4405,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "28\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -3887,7 +4429,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bs",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3923,7 +4465,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -3935,7 +4477,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "a",
-    "inputModern": null,
+    "inputModern": "l",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3949,7 +4491,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "s",
-    "inputModern": null,
+    "inputModern": "m",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3963,7 +4505,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "d",
-    "inputModern": null,
+    "inputModern": "h",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3977,7 +4519,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bp",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -3991,7 +4533,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bp",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4005,7 +4547,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -4017,7 +4559,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bq\u003Eq\u003Ew\u003Ee\u003Ea\u003Es\u003Ed",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh\u003Esh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -4081,7 +4623,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -4095,7 +4637,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Ba",
-    "inputModern": null,
+    "inputModern": "2\u002Bl",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4109,7 +4651,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bs",
-    "inputModern": null,
+    "inputModern": "6\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4121,7 +4663,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bd",
-    "inputModern": null,
+    "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4133,7 +4675,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "q\u003Es\u003Es",
-    "inputModern": null,
+    "inputModern": "l\u003El\u003El",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4145,7 +4687,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003Ee\u003Ed",
-    "inputModern": null,
+    "inputModern": "m\u003Eh\u003Eh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4157,7 +4699,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003Ew\u003Ee",
-    "inputModern": null,
+    "inputModern": "m\u003Em\u003Em",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4169,7 +4711,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003Ew\u003E4\u002Be",
-    "inputModern": null,
+    "inputModern": "m\u003Em\u003E4\u002BM",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4181,7 +4723,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003Ee\u003Ed",
-    "inputModern": null,
+    "inputModern": "22\u002Bmh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4204,12 +4746,24 @@ const moveData = [
   },
   {
     "character": 8,
+    "name": "Sliding Heel Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 8,
     "name": "Diss Track",
     "moveType": 3,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4223,7 +4777,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4237,7 +4791,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4249,7 +4803,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4263,7 +4817,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4277,7 +4831,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4291,12 +4845,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 8,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 8,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 8,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 9,
@@ -4305,7 +4895,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -4319,7 +4909,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "623\u002Bk",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -4333,7 +4923,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -4345,7 +4935,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -4357,7 +4947,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -4385,7 +4975,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "k",
-    "inputModern": null,
+    "inputModern": "y",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4399,7 +4989,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4413,7 +5003,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "qa",
-    "inputModern": null,
+    "inputModern": "6\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4427,7 +5017,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "p",
-    "inputModern": null,
+    "inputModern": "4\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4441,7 +5031,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -4453,7 +5043,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -4465,7 +5055,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bk",
-    "inputModern": null,
+    "inputModern": "sh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": [
@@ -4479,7 +5069,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -4493,7 +5083,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bw",
-    "inputModern": null,
+    "inputModern": "4\u002Bmm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4505,7 +5095,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bd",
-    "inputModern": null,
+    "inputModern": "6\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4517,7 +5107,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bd",
-    "inputModern": null,
+    "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4529,7 +5119,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bw\u003Ed",
-    "inputModern": null,
+    "inputModern": "4\u002Bm\u003Em",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4548,12 +5138,24 @@ const moveData = [
   },
   {
     "character": 9,
+    "name": "Grounded Sweep",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 9,
     "name": "Rough Landing",
     "moveType": 3,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4567,7 +5169,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4581,7 +5183,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "qa",
-    "inputModern": null,
+    "inputModern": "lm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4595,7 +5197,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -4607,7 +5209,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -4619,7 +5221,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": []
@@ -4631,7 +5233,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": []
@@ -4643,9 +5245,45 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 9,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 9,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 9,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
     "notes": []
   },
   {
@@ -4655,7 +5293,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -4669,7 +5307,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "46\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -4693,7 +5331,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "63214\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -4707,7 +5345,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bk",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -4719,7 +5357,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "p\u003Ep",
-    "inputModern": null,
+    "inputModern": "y\u003Ey",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4733,7 +5371,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4771,7 +5409,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -4783,7 +5421,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4646\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -4795,7 +5433,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -4809,7 +5447,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bd",
-    "inputModern": null,
+    "inputModern": "6\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4833,7 +5471,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bs",
-    "inputModern": null,
+    "inputModern": "2\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4847,7 +5485,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "q\u003Ew",
-    "inputModern": null,
+    "inputModern": "l\u003El",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4859,7 +5497,19 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003E3\u002Bd",
-    "inputModern": null,
+    "inputModern": "m\u003E3\u002Bm",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 11,
+    "name": "Dohyo Sweep",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -4871,7 +5521,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4885,7 +5535,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -4899,7 +5549,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -4911,7 +5561,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -4925,7 +5575,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -4939,7 +5589,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -4953,12 +5603,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 11,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 11,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 11,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 16,
@@ -4967,7 +5653,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "pp",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -4979,7 +5665,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "o\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -4993,7 +5679,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "o\u002Bk",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -5007,7 +5693,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "63214\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -5021,7 +5707,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "63214\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -5047,7 +5733,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -5059,7 +5745,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": [
@@ -5073,7 +5759,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "oo\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -5087,7 +5773,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "3\u002Bw",
-    "inputModern": null,
+    "inputModern": "3\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5099,7 +5785,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bs",
-    "inputModern": null,
+    "inputModern": "6\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5147,7 +5833,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Be",
-    "inputModern": null,
+    "inputModern": "2\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5161,7 +5847,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "8\u002Be",
-    "inputModern": null,
+    "inputModern": "8\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5175,7 +5861,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003Ew\u003Ew",
-    "inputModern": null,
+    "inputModern": "m\u003Em\u003Em",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5194,12 +5880,24 @@ const moveData = [
   },
   {
     "character": 16,
+    "name": "Big Stampede",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 16,
     "name": "Bodyslam",
     "moveType": 3,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5213,7 +5911,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5227,7 +5925,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5241,7 +5939,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "3\u002Bqa",
-    "inputModern": null,
+    "inputModern": "3\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5255,7 +5953,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "1\u002Bqa",
-    "inputModern": null,
+    "inputModern": "1\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5269,7 +5967,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bqa",
-    "inputModern": null,
+    "inputModern": "2\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5283,7 +5981,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -5295,7 +5993,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -5309,7 +6007,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -5323,7 +6021,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -5337,12 +6035,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 16,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 16,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 16,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 0,
@@ -5351,7 +6085,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -5363,7 +6097,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "pp",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 1,
     "costSuper": 0,
     "notes": [
@@ -5391,7 +6125,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "pp",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 1,
     "costSuper": 0,
     "notes": [
@@ -5405,7 +6139,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bp",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -5417,7 +6151,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -5431,7 +6165,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "pp",
-    "inputModern": null,
+    "inputModern": "y",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5445,7 +6179,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "k",
-    "inputModern": null,
+    "inputModern": "2\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5457,7 +6191,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "623\u002Bp",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -5469,7 +6203,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "pp",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 1,
     "costSuper": 0,
     "notes": [
@@ -5483,7 +6217,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -5495,7 +6229,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -5507,7 +6241,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -5521,7 +6255,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bw",
-    "inputModern": null,
+    "inputModern": "6\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5533,7 +6267,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Be",
-    "inputModern": null,
+    "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5557,7 +6291,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Be\u003Ee",
-    "inputModern": null,
+    "inputModern": "6\u002Bh\u003Eh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5569,7 +6303,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "q\u003Ew\u003Ee",
-    "inputModern": null,
+    "inputModern": "l\u003El\u003El",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5581,7 +6315,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bs\u003E2\u002Be",
-    "inputModern": null,
+    "inputModern": "2\u002Bm\u003E2\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5593,7 +6327,19 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "w\u003Ew\u003Ew\u003Ew",
-    "inputModern": null,
+    "inputModern": "m\u003Em\u003Em\u003Em",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Trench Breaker",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5605,7 +6351,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5619,7 +6365,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5633,7 +6379,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -5645,7 +6391,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -5659,7 +6405,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -5673,7 +6419,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -5687,12 +6433,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 0,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El\u003El",
+    "costDrive": 2,
+    "costSuper": 1,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 0,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 3,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 1,
@@ -5715,7 +6497,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bp\u003E6\u002Bp\u003E6\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\u002Bs\u003Es\u003Es",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -5729,7 +6511,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bp\u003E6\u002Bk\u003E6\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\u002Bs\u003E4\u002Bs\u003E4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -5753,7 +6535,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "623\u002Bk",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -5765,7 +6547,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -5779,7 +6561,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -5793,7 +6575,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "63214\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -5821,7 +6603,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": [
@@ -5835,7 +6617,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -5847,7 +6629,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -5861,7 +6643,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bkk",
-    "inputModern": null,
+    "inputModern": "2\u002Bmh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5873,7 +6655,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bd\u003Ed\u003Ep",
-    "inputModern": null,
+    "inputModern": "3\u002Bh\u003Eh\u003Eh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5885,7 +6667,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bs",
-    "inputModern": null,
+    "inputModern": "6\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5897,7 +6679,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bd",
-    "inputModern": null,
+    "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5909,7 +6691,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bd",
-    "inputModern": null,
+    "inputModern": "6\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -5921,7 +6703,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "q\u003Ea\u003Ew",
-    "inputModern": null,
+    "inputModern": "l\u003El\u003El",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5935,7 +6717,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bs\u003Es\u003Ep",
-    "inputModern": null,
+    "inputModern": "6\u002Bm\u003Em\u003Em",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5949,7 +6731,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Be\u003Ee\u003Ed",
-    "inputModern": null,
+    "inputModern": "4\u002Bh\u003Eh\u003Eh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5958,12 +6740,24 @@ const moveData = [
   },
   {
     "character": 1,
+    "name": "Shikai Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 1,
     "name": "Ransui Haze",
     "moveType": 2,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bd\u003E4\u002Bd\u003Ep",
-    "inputModern": null,
+    "inputModern": "6\u002Bh\u003E4\u002Bh\u003Ey",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5977,7 +6771,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5991,7 +6785,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -6005,7 +6799,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -6017,7 +6811,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -6031,7 +6825,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -6045,7 +6839,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -6059,12 +6853,48 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 1,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 1,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
+    "notes": []
   },
   {
     "character": 15,
@@ -6073,7 +6903,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "46\u002Bp",
-    "inputModern": null,
+    "inputModern": "4\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -6085,7 +6915,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bk",
-    "inputModern": null,
+    "inputModern": "5\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -6097,7 +6927,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "kk",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -6111,7 +6941,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236\u002Bk",
-    "inputModern": null,
+    "inputModern": "s",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -6135,7 +6965,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -6147,7 +6977,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "22\u002Bk",
-    "inputModern": null,
+    "inputModern": "6\u002Bs",
     "costDrive": 2,
     "costSuper": 0,
     "notes": []
@@ -6159,7 +6989,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Bsh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": []
@@ -6171,7 +7001,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bp",
-    "inputModern": null,
+    "inputModern": "sh",
     "costDrive": 0,
     "costSuper": 1,
     "notes": [
@@ -6185,7 +7015,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "236236\u002Bk",
-    "inputModern": null,
+    "inputModern": "4\u002Bsh",
     "costDrive": 0,
     "costSuper": 2,
     "notes": []
@@ -6197,7 +7027,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214214\u002Bk",
-    "inputModern": null,
+    "inputModern": "2\u002Bsh",
     "costDrive": 0,
     "costSuper": 3,
     "notes": [
@@ -6211,7 +7041,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\\6\u002Bw",
-    "inputModern": null,
+    "inputModern": "4\\6\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -6223,7 +7053,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Be",
-    "inputModern": null,
+    "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -6247,7 +7077,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bd",
-    "inputModern": null,
+    "inputModern": "6\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -6271,7 +7101,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "2\u002Bs",
-    "inputModern": null,
+    "inputModern": "2\u002Bm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -6285,7 +7115,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "9",
-    "inputModern": null,
+    "inputModern": "9",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -6313,7 +7143,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "214\u002Bp",
-    "inputModern": null,
+    "inputModern": "214\u002By",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -6367,7 +7197,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "a",
-    "inputModern": null,
+    "inputModern": "l",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -6381,7 +7211,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "s",
-    "inputModern": null,
+    "inputModern": "m",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -6395,7 +7225,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "d",
-    "inputModern": null,
+    "inputModern": "h",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -6404,12 +7234,24 @@ const moveData = [
   },
   {
     "character": 15,
+    "name": "Gen Assassin Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
     "name": "Koshuto",
     "moveType": 3,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "5\\6\u002Bqa",
-    "inputModern": null,
+    "inputModern": "5\\6\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -6423,7 +7265,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "4\u002Bqa",
-    "inputModern": null,
+    "inputModern": "4\u002Blm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -6437,7 +7279,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "qa",
-    "inputModern": null,
+    "inputModern": "lm",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -6451,7 +7293,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ed",
-    "inputModern": null,
+    "inputModern": "i",
     "costDrive": 1,
     "costSuper": 0,
     "notes": []
@@ -6463,7 +7305,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "6\u002Bed",
-    "inputModern": null,
+    "inputModern": "6\u002Bi",
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
@@ -6477,7 +7319,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "ws",
-    "inputModern": null,
+    "inputModern": "d",
     "costDrive": -1,
     "costSuper": 0,
     "notes": [
@@ -6491,7 +7333,7 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 0.5,
     "costSuper": 0,
     "notes": [
@@ -6505,11 +7347,47 @@ const moveData = [
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
     "inputClassic": "66",
-    "inputModern": null,
+    "inputModern": "66",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
       "While connecting with a special-cancelable move"
     ]
+  },
+  {
+    "character": 15,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 15,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 0,
+    "costSuper": 3,
+    "notes": []
   }
 ];

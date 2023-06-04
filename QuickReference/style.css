@@ -15,7 +15,9 @@
 
     --colorMoveUnique: #fcd63f;
     --colorMoveAnyBright: #ede6f1;
-    --colorMoveAnyDark: #222123;
+    --colorMoveAnyDark: #969696;
+    --colorMoveMiscBright: #ede6f1;
+    --colorMoveMiscDark: #222123;
     --colorMoveLightBright: #76d4dd;
     --colorMoveLightDark: #1f4c5f;
     --colorMoveMediumBright: #dfda5c;
@@ -28,6 +30,11 @@
     --colorSuperBright: #ebe4ee;
     --colorSuperDark: #f63b95;
     --colorNote: #c5ade4;
+
+    --colorModeClassicBorderOuter: #efdff7;
+    --colorModeClassicBorderInner: #7c06e0;
+    --colorModeClassicBacker: #2b004a;
+    --colorModeClassicCharacter: #efdff7;
 
     --colorDriveBrightHover: #83ff56;
 }
@@ -50,17 +57,26 @@ body {
     margin: 0rem auto 2rem auto;
     display: flex;
     justify-content: center;
-
+    gap: 1rem;
 }
 
 h1 {
     font-size: 3rem;
     line-height: 3rem;
     margin: 0.6rem 0rem 0.6rem 0rem;
+    border-top: var(--sizeBoxBorder) solid var(--colorBoxBorder);
+    border-bottom: var(--sizeBoxBorder) solid var(--colorBoxBorder);
+    padding: 0.6rem 1.2rem 0.8rem 1.2rem;
+    background-image: linear-gradient(to right, rgba(43, 19, 57, 0), rgba(43, 19, 57, 1), rgba(43, 19, 57, 1), rgba(43, 19, 57, 1), rgba(43, 19, 57, 0.0));
+    color: #ffffff;
+    text-shadow: 0rem 0rem 0.6rem #b83bc9;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 p {
-    margin: 0.2rem 0rem 0.4rem 0rem;
+    margin: 0.2rem 0rem 1rem 0rem;
 }
 
 a {
@@ -91,6 +107,7 @@ select {
     font-weight: bold;
     padding: 0.6rem;
     border: var(--sizeBoxBorder) solid var(--colorBoxBorder);
+    width: 16rem;
 }
 
 option {
@@ -111,6 +128,12 @@ option {
 
 .meterCostContainerParry {
     right: 0.2rem;
+}
+
+.iconMeterDrain {
+    width: 3rem;
+    height: 3rem;
+    fill: var(--colorMoveAnyBright);
 }
 
 .iconMeterCost {
@@ -146,11 +169,68 @@ option {
     margin: 0rem 0.6rem;
 }
 
-
 .iconPlus {
     width: calc(var(--fontSizeMoveInput) * 0.65);
     height: calc(var(--fontSizeMoveInput) * 0.65);
     margin: 0rem 0.6rem;
+}
+
+.iconAuto {
+    width: var(--fontSizeMoveInput);
+    height: var(--fontSizeMoveInput);
+    margin: 0rem 0.2rem;    
+}
+
+.iconAuto path
+{
+    fill: #fbf9ff;
+}
+
+.iconAuto path:nth-child(2)
+{
+    fill: #36333e;
+}
+
+.iconDriveParry, .iconDriveImpact {
+    width: var(--fontSizeMoveInput);
+    height: var(--fontSizeMoveInput);
+    margin: 0rem 0.2rem;    
+}
+
+.iconDriveParry path
+{
+    fill: #fbf9ff;
+}
+
+.iconDriveParry path:nth-child(2)
+{
+    fill: #00459a;
+}
+
+.iconDriveImpact path
+{
+    fill: #fbf9ff;
+}
+
+.iconDriveImpact path:nth-child(2)
+{
+    fill: #007496;
+}
+
+.iconSpecial {
+    width: var(--fontSizeMoveInput);
+    height: var(--fontSizeMoveInput);
+    margin: 0rem 0.2rem;    
+}
+
+.iconSpecial path
+{
+    fill: #fbf9ff;
+}
+
+.iconSpecial path:nth-child(2)
+{
+    fill: #d85f09;
 }
 
 .icon360 {
@@ -188,6 +268,14 @@ option {
 
 .colorMoveMisc {
     fill: var(--colorMoveMisc);
+}
+
+.colorMoveMiscBright {
+    fill: var(--colorMoveMiscBright);
+}
+
+.colorMoveMiscDark {
+    fill: var(--colorMoveMiscDark);
 }
 
 .colorMoveAnyBright {
@@ -289,16 +377,86 @@ svg {
     box-sizing: border-box;
 }
 
-.modeSelectButton {
+.modeSelectButton, #gotoMoveList {
     font-size: 2rem;
     color: #c820c5;
     background-color: #271234;
     text-shadow: 0rem 0rem 0.4rem rgba(0, 0, 0, 0.5);
-    border: var(--sizeBoxBorder) solid #c820c5;
-    width: 25rem;
-    text-align: center;
-    padding: 0.2rem;
+    border: var(--sizeBoxBorder) solid #e734e4;
+    width: 16rem;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    cursor: pointer;
+}
+
+#gotoMoveList {
+    width: 5rem;
+    height: 4rem;
+}
+
+#gotoMoveList .iconCancelArrow {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.modeSelectButton svg {
+    width: 2.6rem;
+    height: 2.6rem;
+    fill-rule: evenodd;
+}
+
+#modeSelectClassic svg path:nth-child(1)
+{
+    fill: #efdff7;
+}
+
+#modeSelectClassic svg path:nth-child(2)
+{
+    fill: #9c2aff;
+}
+
+#modeSelectClassic svg path:nth-child(3)
+{
+    fill: #2b0546;
+}
+
+#modeSelectClassic svg path:nth-child(4)
+{
+    fill: #efdff7;
+}
+
+#modeSelectModern svg {
+    margin-right: 0.2rem;
+}
+
+#modeSelectModern svg path:nth-child(1)
+{
+    fill: #efdff7;
+}
+
+#modeSelectModern svg path:nth-child(2)
+{
+    fill: #fd711a;
+}
+
+#modeSelectModern svg path:nth-child(3)
+{
+    fill: #481b00;
+}
+
+#modeSelectModern svg path:nth-child(4)
+{
+    fill: #efdff7;
+}
+
+.modeSelectButton.selected {
+    box-shadow: 0rem 0rem 2.4rem #861386;
+    background-color: #971fbe;
+    border-color: #d670f6;
+    color: white;
 }
 
 /* Footer */
@@ -316,6 +474,7 @@ svg {
 
 #footer p {
     text-align: center;
+    margin: 0rem;
 }
 
 #footerLinks {

@@ -4,7 +4,7 @@ const streamElementContents = `
 
     allowfullscreen>
     </iframe>
-    <p>Leaving this stream open helps support Jerp, but you can <a href="#" onclick="headerStreamClose();" id="headerStreamClose">close it</a> if you'd like.</p>
+    <p>Leaving this stream open helps support Jerp, but you can <a href="#" onclick="headerStreamClose();" id="headerStreamClose" title="Clicking this hides the embed for Jerp's stream (and will save this setting for future sessions)">close it</a> if you'd like.</p>
 `;
 
 let headerClosed = localStorage.getItem("jerpHeaderStreamClosed");
