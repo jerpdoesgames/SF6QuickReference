@@ -9,9 +9,11 @@ Web app to display basic Street Fighter 6 character move data in a simple format
 2. The selected character's moves will be displayed in a way that should (eventually) fit a single screen.
 
 ## To-Do:
-* Finish work to have the app fit on a single screen on various devices (including mobile).
-* Add toggle for Modern controls.
-* Half-drive-meter and >> fast forward icon for drive parry.
+* Fix bugs / typos - I've already fixed a few (let me know if you find any more).
+* If the Steam beta ends up allowing browser windows with transparency overlaid on top of games, I want to make an update to support that (maybe allow selecting the choice moves you want to pin, etc.)
+* I'll probably make some changes to how everything resizes to be a little cleaner / better use available space.
+* People were asking about displaying frame data - but I think that may be best left to FAT/SuperCombo. Though I could work something out if there's enough interest.
+* Half-drive-meter for parry drive rush.
 
 ## Credits
 * Thanks to [Malastrome](https://twitter.com/malastrome) for transcribing a bunch of move data from the Command List screens posted by various YouTubers.  Also excellent if you need an editor for your videos.
