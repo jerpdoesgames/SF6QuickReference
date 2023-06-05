@@ -1706,7 +1706,7 @@ const moveData = [
   },
   {
     "character": 3,
-    "name": "Genuis at Play",
+    "name": "Genius at Play",
     "moveType": 0,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
