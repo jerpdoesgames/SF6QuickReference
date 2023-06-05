@@ -6678,7 +6678,7 @@ const moveData = [
     "moveType": 2,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "4\u002Bd",
+    "inputClassic": "4\u002Be",
     "inputModern": "4\u002Bh",
     "costDrive": 0,
     "costSuper": 0,
