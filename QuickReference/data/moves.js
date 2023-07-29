@@ -304,8 +304,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 23,
     "sectionMoveIndex": 4,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -712,8 +712,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -1148,8 +1148,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -1504,8 +1504,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -1706,7 +1706,7 @@ const moveData = [
   },
   {
     "character": 3,
-    "name": "Genius at Play",
+    "name": "Genuis at Play",
     "moveType": 0,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
@@ -2036,8 +2036,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -2448,8 +2448,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -2886,8 +2886,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -3204,8 +3204,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 0,
     "costSuper": 0,
     "notes": []
@@ -3630,8 +3630,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -3972,8 +3972,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -4342,8 +4342,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -4844,8 +4844,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
@@ -5244,8 +5244,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": []
@@ -5602,8 +5602,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -6034,8 +6034,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -6432,8 +6432,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -6852,8 +6852,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -7346,8 +7346,8 @@ const moveData = [
     "moveType": 4,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": "66",
-    "inputModern": "66",
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
     "costDrive": 3,
     "costSuper": 0,
     "notes": [
@@ -7389,5 +7389,485 @@ const moveData = [
     "costDrive": 0,
     "costSuper": 3,
     "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Whirlwind Shot",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "5\u002Bs\u003E4\\5\\6",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to change effect",
+      "Input additional command at startup to change trajectory"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Spinning Mixer",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bp",
+    "inputModern": "6\u002Bs",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Effect changes when in contact with air current"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Eagle Spike",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bk",
+    "inputModern": "4\u002Bs",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Effect changes when in contact with air current"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Whirlwind Shot",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to change effect"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Arabian Cyclone",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bp",
+    "inputModern": "2\u002Bs",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Wing Stroke",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Bk",
+    "inputModern": "4\u002By",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Arabian Cyclone"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Rolling Assault",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bk",
+    "inputModern": "6\u002By",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Arabian Cyclone"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Nail Assault",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "k",
+    "inputModern": "y",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Rolling Assault"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Arabian Skyhigh",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bk",
+    "inputModern": "s",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "During a forward jump"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Super Rashid Kick",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "623623\u002Bk",
+    "inputModern": "5\\6\u002Bsh",
+    "costDrive": 0,
+    "costSuper": 1,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Ysaar",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214214\u002Bk",
+    "inputModern": "4\u002Bsh",
+    "costDrive": 0,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Altair",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "623623\u002Bp",
+    "inputModern": "2\u002Bsh",
+    "costDrive": 0,
+    "costSuper": 3,
+    "notes": [
+      "More powerful when vitality is at 25% or below"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Run",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": "66",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Backup",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bp",
+    "inputModern": "6\u002Bl",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Run"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Tempest Moon",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bk",
+    "inputModern": "6\u002Bm\\h",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Run",
+      "Effect changes when in contact with air current"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Flapping Spin",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bw",
+    "inputModern": "6\u002Bm",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Beak Assault",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Be",
+    "inputModern": "6\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Cyclone Slider",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Crescent Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bd",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Blitz Strike",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "2\u002Be",
+    "inputModern": "2\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During a forward jump"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Arial Shot",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "8\u002Bd",
+    "inputModern": "8\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During a forward jump"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Rising Kick",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "w\u003Ed",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Side Flip",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bkk",
+    "inputModern": "6\u002Bmh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Front Flip",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\\5\\6\u002Bkk",
+    "inputModern": "4\\5\\6\u002Bmh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Side Flip"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Wall Jump",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "9",
+    "inputModern": "9",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During a jump",
+      "Must be near a wall"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Riding Glider",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "5\\6\u002Bqa",
+    "inputModern": "5\\6\u002Blm",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Sunset Drop",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Bqa",
+    "inputModern": "4\u002Blm",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Desert Slider",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "qa",
+    "inputModern": "lm",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During a jump",
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Drive Impact: Eagle Edge",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ed",
+    "inputModern": "i",
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Drive Reversal: Eagle Slash",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bed",
+    "inputModern": "6\u002Bi",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "When blocking or during a successful Drive Parry"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Drive Parry",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ws",
+    "inputModern": "d",
+    "costDrive": -1,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to extend the move\u0027s duration"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Parry Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": "66",
+    "costDrive": 0.5,
+    "costSuper": 0,
+    "notes": [
+      "During a Drive Parry"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Cancel Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
+    "costDrive": 3,
+    "costSuper": 0,
+    "notes": [
+      "While connecting with a special-cancelable move"
+    ]
+  },
+  {
+    "character": 18,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 1,
+    "notes": []
+  },
+  {
+    "character": 18,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh",
+    "costDrive": 0,
+    "costSuper": 3,
+    "notes": []
   }
-];
+]
