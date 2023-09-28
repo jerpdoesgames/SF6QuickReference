@@ -7869,5 +7869,477 @@ const moveData = [
     "costDrive": 0,
     "costSuper": 3,
     "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Nightshade Pulse",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bq",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Nightshade Chaser",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Nightshade Pulse",
+      "Triggers Toxic Blossom"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Orchid Spring",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bw",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Toxic Wreath",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Be",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Serpent Lash",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bp",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Triggers Toxic Blossom"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Cruel Fate",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bk",
+    "inputModern": null,
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Snake Step",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bk",
+    "inputModern": "5\u002Bs",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Serpent Lash",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "6\u002Bs",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Triggers Toxic Blossom"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Nightshade Pulse",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "4\u002Bs",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Nightshade Chaser",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "6\u002By",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Nightshade Pulse",
+      "Triggers Toxic Blossom"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Cruel Fate",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "2\u002Bs",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Sinister Slide",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "2\u002Bpp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "Can be canceled with 8"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Venomonous Fang",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "p",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Sinister Slide",
+      "Triggers Toxic Blossom"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Heel Strike",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "k",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Sinister Slide"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Entrapment",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "qa",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Sinister Slide",
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Deadly Implication",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236236\u002Bk",
+    "inputModern": "5\\6\u002Bsh",
+    "costDrive": 0,
+    "costSuper": 1,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Tainted Talons",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214214\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Tainted Talons",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "4\u002Bsh\u003E4\\5\\6",
+    "costDrive": 0,
+    "costSuper": 2,
+    "notes": [
+      "Input additional command at startup to change effect"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Claws of Ya Zi",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236236\u002Bp",
+    "inputModern": "2\u002Bsh",
+    "costDrive": 0,
+    "costSuper": 3,
+    "notes": [
+      "More powerful when vitality is at 25% or below"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Pu Lao",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "3\u002Bw",
+    "inputModern": "3\u002Bm",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Chi Wen",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Be",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Qiu Niu",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bd",
+    "inputModern": "6\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Xiu She",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Gong Fu",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "2\u002Be",
+    "inputModern": "2\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During a forward jump"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Hun Dun",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "q\u003Eq",
+    "inputModern": "l\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Qiong Qi",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "e\u003Ee",
+    "inputModern": "h\u003Eh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "Triggers Toxic Blossom"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Whisper",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "5\\6\u002Bqa",
+    "inputModern": "5\\6\u002Blm",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Gluttony",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Bqa",
+    "inputModern": "4\u002Blm",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Drive Impact: Zao Chi",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ed",
+    "inputModern": "i",
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Drive Reversal: Feng Shi",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bed",
+    "inputModern": "6\u002Bi",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "When blocking or during a successful Drive Parry"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Drive Parry",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ws",
+    "inputModern": "d",
+    "costDrive": -1,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to extend the move\u0027s duration"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Parry Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": "66",
+    "costDrive": 0.5,
+    "costSuper": 0,
+    "notes": [
+      "During a Drive Parry"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Cancel Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
+    "costDrive": 3,
+    "costSuper": 0,
+    "notes": [
+      "While connecting with a special-cancelable move"
+    ]
+  },
+  {
+    "character": 19,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 19,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 2,
+    "costSuper": 3,
+    "notes": []
   }
 ]

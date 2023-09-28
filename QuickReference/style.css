@@ -257,7 +257,7 @@ option {
     margin: 0rem 0.2rem;
 }
 
-.moveNotes .iconPunchKick {
+.moveNotes .iconPunchKick, .moveNotes .iconArrow {
     width: var(--fontSizeNote);
     height: var(--fontSizeNote);
 }

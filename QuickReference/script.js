@@ -21,6 +21,7 @@ const CHARACTER_CHUNLI = 15;
 const CHARACTER_ZANGIEF = 16;
 const CHARACTER_DHALSIM = 17;
 const CHARACTER_RASHID = 18;
+const CHARACTER_AKI = 19;
 
 const MOVE_TYPE_SPECIAL = 0;
 const MOVE_TYPE_SUPER = 1;
@@ -515,6 +516,7 @@ class SF6QuickReference
 
     getParsedNoteString(aInput)
     {
+        aInput = aInput.replace("8", this.getArrowIcon(90));
         aInput = aInput.replace("[e]", this.getKickIcon(MOVE_STRENGTH_HEAVY));
         return aInput.replace("[d]", this.getKickIcon(MOVE_STRENGTH_HEAVY));
     }
