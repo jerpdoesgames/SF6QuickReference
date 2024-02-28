@@ -767,7 +767,7 @@ const moveData = [
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
-      "Press 6 \u002B an attack button simultaneously to change effect"
+      "Press [6] \u002B an attack button simultaneously to change effect"
     ]
   },
   {
@@ -781,7 +781,7 @@ const moveData = [
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
-      "Press 8 \u002B an attack button simultaneously to change effect"
+      "Press [8] \u002B an attack button simultaneously to change effect"
     ]
   },
   {
@@ -807,7 +807,7 @@ const moveData = [
     "costDrive": 2,
     "costSuper": 0,
     "notes": [
-      "During Sonic Blade, Press 6 \u002B an attack button simultaneously to change effect"
+      "During Sonic Blade, Press [6] \u002B an attack button simultaneously to change effect"
     ]
   },
   {
@@ -2176,12 +2176,12 @@ const moveData = [
     "moveType": 0,
     "characterMoveIndex": 0,
     "sectionMoveIndex": 0,
-    "inputClassic": null,
-    "inputModern": "Any direction \u002By",
+    "inputClassic": "When performing a rolling-type special move, press any direction \u002B p",
+    "inputModern": "When performing a rolling-type special move, press any direction \u002B y",
     "costDrive": 0,
     "costSuper": 0,
     "notes": [
-      "When performing a rolling-type special move, press any direction \u002B p. During Lightning Beast"
+      "During Lightning Beast"
     ]
   },
   {
@@ -6607,7 +6607,7 @@ const moveData = [
     "costDrive": 0,
     "costSuper": 1,
     "notes": [
-      "Hold 2 to change effect"
+      "Hold [2] to change effect"
     ]
   },
   {
@@ -8341,5 +8341,381 @@ const moveData = [
     "costDrive": 2,
     "costSuper": 3,
     "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Psycho Spark",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bp",
+    "inputModern": "5\u002Bs",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Psycho Shoot",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bp",
+    "inputModern": "6\u002By",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During Psycho Spark"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Psycho Uppercut",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "623\u002Bp",
+    "inputModern": "6\u002Bs",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Psycho Blitz",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214\u002Bp",
+    "inputModern": "4\u002Bs",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Psycho Flicker",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236\u002Bk",
+    "inputModern": "2\u002Bs",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to change the effect"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Kill Rush (Forward)",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "5\\6\u002Bkk",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "Press [6][6] while charging an attack to activate"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Kill Switch Break",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During the first half of Kill Rush Forward"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Kill Switch Chaser",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bp",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "During the latter half of Kill Rush Forward"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Kill Rush (Backward)",
+    "moveType": 0,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Bkk",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "Press [4][4] while charging an attack to activate"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Psycho Storm",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236236\u002Bk",
+    "inputModern": "5\\6\u002Bsh",
+    "costDrive": 0,
+    "costSuper": 1,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Psycho Cannon",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "214214\u002Bp",
+    "inputModern": "4\u002Bsh\u003E4\\5\\6",
+    "costDrive": 0,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Psycho Chamber",
+    "moveType": 1,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "236236\u002Bp",
+    "inputModern": "2\u002Bsh",
+    "costDrive": 0,
+    "costSuper": 3,
+    "notes": [
+      "More powerful when vitality is at 25% or below"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Psycho Knuckle",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ec",
+    "inputModern": "uc\u002Bhc",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to change effect"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Cobra Punch",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Be",
+    "inputModern": "6\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Low Hook Punch",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "3\u002Bh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Flicker Combination",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "a\u003Ea\u003Ea",
+    "inputModern": "l\u002Bl\u002Bl",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Body Blow Combination",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "w\u003Ee",
+    "inputModern": null,
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Hitman Combination",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "s\u003Es\u003Ee",
+    "inputModern": "m\u003Em\u003Em",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Low Smash Combination",
+    "moveType": 2,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "2\u002Bd\u003Ee",
+    "inputModern": "2\u002Bh\u003Eh",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Face Buster",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "5\\6\u002Bqa",
+    "inputModern": "5\\6\u002Blm",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Rib Crusher",
+    "moveType": 3,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "4\u002Bqa",
+    "inputModern": "4\u002Blm",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": [
+      "When near opponent"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Drive Impact (Turn Punch)",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ed",
+    "inputModern": "i",
+    "costDrive": 1,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Drive Reversal (Hammer Blow)",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "6\u002Bed",
+    "inputModern": "6\u002Bi",
+    "costDrive": 2,
+    "costSuper": 0,
+    "notes": [
+      "When blocking or during a successful Drive Parry"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Drive Parry",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "ws",
+    "inputModern": "d",
+    "costDrive": -1,
+    "costSuper": 0,
+    "notes": [
+      "Hold the button to extend the move\u0027s duration"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Parry Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66",
+    "inputModern": "66",
+    "costDrive": 0.5,
+    "costSuper": 0,
+    "notes": [
+      "During a Drive Parry"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Cancel Drive Rush",
+    "moveType": 4,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": "66\\(5\\6)\u002Bws",
+    "inputModern": "66\\(5\\6)\u002Bd",
+    "costDrive": 3,
+    "costSuper": 0,
+    "notes": [
+      "While connecting with a special-cancelable move"
+    ]
+  },
+  {
+    "character": 20,
+    "name": "Assisted Combo 1",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bl\u003El\u003El",
+    "costDrive": 0,
+    "costSuper": 0,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Assisted Combo 2",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bm\u003Em\u003Em\u003Em\u003Em\u003Em",
+    "costDrive": 2,
+    "costSuper": 2,
+    "notes": []
+  },
+  {
+    "character": 20,
+    "name": "Assisted Combo 3",
+    "moveType": 5,
+    "characterMoveIndex": 0,
+    "sectionMoveIndex": 0,
+    "inputClassic": null,
+    "inputModern": "uc\u002Bh\u003Eh\u003Eh\u003Eh\u003Eh",
+    "costDrive": 0,
+    "costSuper": 3,
+    "notes": []
   }
-]
+];

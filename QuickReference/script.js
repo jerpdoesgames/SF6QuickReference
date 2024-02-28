@@ -22,6 +22,7 @@ const CHARACTER_ZANGIEF = 16;
 const CHARACTER_DHALSIM = 17;
 const CHARACTER_RASHID = 18;
 const CHARACTER_AKI = 19;
+const CHARACTER_ED = 20;
 
 const MOVE_TYPE_SPECIAL = 0;
 const MOVE_TYPE_SUPER = 1;
@@ -350,8 +351,13 @@ class SF6QuickReference
         `;
     }
 
-    parseClassicMoveString(aInputString)
+    parseClassicMoveString(aInputString, aIsRollingCannon = false)
     {
+        if (aIsRollingCannon)
+        {
+            return aInputString.replace("+ p", this.getPlusIcon() + " " + this.getPunchIcon(MOVE_STRENGTH_ANY));
+        }
+        
         let output = "";
         let charList = aInputString.split('');
         for (const curChar of charList)
@@ -435,8 +441,13 @@ class SF6QuickReference
         return output;
     }
 
-    parseModernMoveString(aInputString)
+    parseModernMoveString(aInputString, aIsRollingCannon = false)
     {
+        if (aIsRollingCannon)
+        {
+            return aInputString.replace("+ y", this.getPlusIcon() + " " + this.getAttackIcon(MOVE_STRENGTH_ANY));
+        }
+
         let output = "";
         let charList = aInputString.split('');
         for (const curChar of charList)
@@ -516,17 +527,23 @@ class SF6QuickReference
 
     getParsedNoteString(aInput)
     {
-        aInput = aInput.replace("8", this.getArrowIcon(90));
+        aInput = aInput.replace("[2]", this.getArrowIcon(-90));
+        aInput = aInput.replace("[6]", this.getArrowIcon(180));
+        aInput = aInput.replace("[6]", this.getArrowIcon(180)); // Yes, this is lazy
+        aInput = aInput.replace("[4]", this.getArrowIcon(0));
+        aInput = aInput.replace("[4]", this.getArrowIcon(0)); // Yes, this is lazy
+        aInput = aInput.replace("[8]", this.getArrowIcon(90));
         aInput = aInput.replace("[e]", this.getKickIcon(MOVE_STRENGTH_HEAVY));
         return aInput.replace("[d]", this.getKickIcon(MOVE_STRENGTH_HEAVY));
     }
 
     getParsedMoveString(aMove)
     {
+        let isRollingCannon = aMove.name == "Rolling Cannon";
         if (this.config.controlScheme == CONTROLS_CLASSIC)
-            return this.parseClassicMoveString(aMove.inputClassic);
+            return this.parseClassicMoveString(aMove.inputClassic, isRollingCannon);
         else
-            return this.parseModernMoveString(aMove.inputModern);
+            return this.parseModernMoveString(aMove.inputModern, isRollingCannon);
     }
 
     isMoveValidForControlScheme(aMove)
